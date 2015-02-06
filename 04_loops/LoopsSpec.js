@@ -36,6 +36,28 @@ describe("Loops", function() {
   });
 });
 
+describe("Looping over nested Loops", function(){
+  it("returns an empty string when input is 0", function(){
+    expect(gridGenerator(0)).toEqual("");
+  });
+  it("creates a grid with 3 columns and rows when input is 3", function(){
+    expect(gridGenerator(3)).toEqual("# #\n # \n# #\n");
+  });
+  it("creates a grid with 9 columns and rows when input is 9", function(){
+    expect(gridGenerator(2)).toEqual("# \n #\n")
+  });
+
+  it("finds the largest Pythagorean Triplet and returns an array of the Triplet", function(){
+    expect(largestTriplet(25)).toEqual([7,24,25]);
+  });
+  it("finds the largest Pythagorean Triplet", function(){
+    expect(largestTriplet(65)).toEqual([16,63,65]);
+  });
+  it("finds the largets Pythagorean Triplet within 'n' (aka the number argument passed)", function(){
+    expect(largestTriplet(66)).toEqual([16,63,65]);
+  })
+});
+
 describe("More looping over arrays", function() {
 
   // try to implement this join() function without using the built-in String#join function

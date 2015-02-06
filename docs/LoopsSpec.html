@@ -92,6 +92,28 @@
   });
 });
 
+describe(<span class="hljs-string">"Looping over nested Loops"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  it(<span class="hljs-string">"returns an empty string when input is 0"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    expect(gridGenerator(<span class="hljs-number">0</span>)).toEqual(<span class="hljs-string">""</span>);
+  });
+  it(<span class="hljs-string">"creates a grid with 3 columns and rows when input is 3"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    expect(gridGenerator(<span class="hljs-number">3</span>)).toEqual(<span class="hljs-string">"# #\n # \n# #\n"</span>);
+  });
+  it(<span class="hljs-string">"creates a grid with 9 columns and rows when input is 9"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    expect(gridGenerator(<span class="hljs-number">2</span>)).toEqual(<span class="hljs-string">"# \n #\n"</span>)
+  });
+
+  it(<span class="hljs-string">"finds the largest Pythagorean Triplet and returns an array of the Triplet"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    expect(largestTriplet(<span class="hljs-number">25</span>)).toEqual([<span class="hljs-number">7</span>,<span class="hljs-number">24</span>,<span class="hljs-number">25</span>]);
+  });
+  it(<span class="hljs-string">"finds the largest Pythagorean Triplet"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    expect(largestTriplet(<span class="hljs-number">65</span>)).toEqual([<span class="hljs-number">16</span>,<span class="hljs-number">63</span>,<span class="hljs-number">65</span>]);
+  });
+  it(<span class="hljs-string">"finds the largets Pythagorean Triplet within 'n' (aka the number argument passed)"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    expect(largestTriplet(<span class="hljs-number">66</span>)).toEqual([<span class="hljs-number">16</span>,<span class="hljs-number">63</span>,<span class="hljs-number">65</span>]);
+  })
+});
+
 describe(<span class="hljs-string">"More looping over arrays"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{</pre></div></div>
             
         </li>
