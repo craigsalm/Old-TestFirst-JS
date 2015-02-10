@@ -3,7 +3,7 @@
 
 ###Overview
 
-Functional programming is another form of programming that is different than an Object Oriented Style used in earlier test specs.  [Here is a great article](http://www.smashingmagazine.com/2014/07/02/dont-be-scared-of-functional-programming/) to review which will provide context around what Functional Programming is.  Throughout the Functional TestSpecs you will create some of the most popular and used methods in functional languages such as 
+Functional programming is another form of programming that is different than an Object Oriented Style used in earlier test specs.  [Here is a great article](http://www.smashingmagazine.com/2014/07/02/dont-be-scared-of-functional-programming/) about Functional Programming is.  Throughout the Functional TestSpecs you will create some of the most popular and used methods in functional languages such as: 
 
 - Map
 - Filter
