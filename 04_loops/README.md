@@ -3,35 +3,30 @@
 
 ###Overview
 
-In 02_Calculator you created a function that returned a Calculator Object.  RPN Calculator will introduce a new type of function called a `Constructor Function` that creates a new object when invoked with the `new` operator.  
+Looping is a powerful part of any programming language and allows you to repeat a task until a conditional expression evaluates to false.  Normally a loop has:
 
-Using the new pattern described above, you will create an RPN Calculator object that functions just like an RPN Calculator.  You will also be exposed to the `.prototype` property on Function objects and see how it behaves when used with the `new` operator and a `Constructor Function`.
+- Initial Value (Starting Point)
+- Loop Body (The code that runs each pass of the loop)
+- Conditional Expression (Evaluated each pass of the loop, when it evaluates to false the loop is exited)
+- Counter (the variable that changes each pass of the loop)
 
+A loop is a great way to run a block of code over and over until a condition is met.  The Loops TestSpec will also introduce you to looping over an object's keys and values using a `for in` loop. 
+
+The goal of this TestSpec is to become familiar and comfortable with looping, using nested loops, and looping over an object.
 
 <hr>
 
 
 ###Lesson Video
 
-- Lesson['new' & constructor function](http://www.youtube.com/watch?v=yJd7R-Ac4Uo)
-
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/yJd7R-Ac4Uo" frameborder="0" allowfullscreen></iframe>
+- Lesson & TestSpecs:  [Looping](https://www.youtube.com/watch?v=yJd7R-Ac4Uo)
 
 <br>
 <hr>
-
-###TestSpec Overview:
-
-Review the following videos to gain a better understanding of the TestSpec.
-
-- TestSpec - [What is an RPN Calculator](http://www.youtube.com/watch?v=PoI1sX9F4tA)
-- TestSpec - ['throw' Errors and TestSpec Overview](http://www.youtube.com/watch?v=7_Auxy_mRfM)]
-
 
 <hr>
 
 ###Additional Resources
 
-- Eloquent JavaScript [The Secret Life Of Objects](http://eloquentjavascript.net/06_object.html)
-- Codeschool [Plains of Prototypes](http://javascript-roadtrip-part3.codeschool.com/levels/5)  
+- Eloquent JavaScript [Control Flow](http://eloquentjavascript.net/02_program_structure.html#p_t55fBgZ9ww)
+- Codeschool [The Labyrinth of Loops](http://javascript-roadtrip-part2.codeschool.com/levels/1)  
