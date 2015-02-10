@@ -1,13 +1,8 @@
-describe("countWords", function() {
-  it("counts words in a sentence separated by empty space", function() {
-    expect(countWords("this is a sentence with 7 words")).toEqual(7);
-  });
-});
 
 // functions that iterate over collections and perform some function
 
 // map takes an array, performs a function on each element
-// and returns and array with the result of that function
+// and returns an array with the result of that function
 describe("map", function() {
 
   it('first, create a function that takes an element and returns double of it', function () {
@@ -78,6 +73,12 @@ describe("contains", function() {
   });
 });
 
+describe("countWords - a utility function we'll need soon", function() {
+  it("counts words in a sentence separated by empty space", function() {
+    expect(countWords("this is a sentence with 7 words")).toEqual(7);
+  });
+});
+
 // `reduce` is the opposite of `map`.  It takes a collection and combines the values in the
 // collection into a single value by defining a combination function.
 describe("reduce takes an array, starting point, and combining function and", function() {
@@ -113,14 +114,6 @@ describe("every", function() {
     expect(every([], getValue)).toEqual(true);
   });
 
-  it("should handle a set that contains only true values", function() {
-    expect(every([true, true, true])).toEqual(true);
-  });
-
-  it("should handle a set that contains one false value", function() {
-    expect(every([true, false, true])).toEqual(false);
-  });
-
   it("should handle a set that contains even numbers", function() {
     expect(every([0, 10, 28], isEven)).toEqual(true);
   });
@@ -137,14 +130,6 @@ describe("any", function() {
 
   it("should handle the empty set", function() {
     expect(any([])).toEqual(false);
-  });
-
-  it("should handle a set containing 'false' values", function() {
-    expect(any([false, false, false])).toEqual(false);
-  });
-
-  it("should handle a set containing one 'true' value", function() {
-    expect(any([false, false, true])).toEqual(true);
   });
 
   it("should handle a set that contains all odd numbers", function() {
