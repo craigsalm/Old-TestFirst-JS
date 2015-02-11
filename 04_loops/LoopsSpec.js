@@ -40,6 +40,7 @@ describe("Looping over nested Loops", function(){
   it("returns an empty string when input is 0", function(){
     expect(gridGenerator(0)).toEqual("");
   });
+  // all characters (even whitespaces) are values of the grid
   it("creates a grid with 3 columns and rows when input is 3", function(){
     expect(gridGenerator(3)).toEqual("# #\n # \n# #\n");
   });
