@@ -43,7 +43,7 @@ describe("Looping over nested Loops", function(){
   it("creates a grid with 3 columns and rows when input is 3", function(){
     expect(gridGenerator(3)).toEqual("# #\n # \n# #\n");
   });
-  it("creates a grid with 9 columns and rows when input is 9", function(){
+  it("creates a grid with 2 columns and rows when input is 2", function(){
     expect(gridGenerator(2)).toEqual("# \n #\n")
   });
 
