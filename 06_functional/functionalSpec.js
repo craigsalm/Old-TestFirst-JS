@@ -98,7 +98,7 @@ describe("reduce takes an array, starting point, and combining function and", fu
 // Use reduce inside a sum function that takes an array of integers
 describe("sums an array using reduce", function() {
   it("adds up an array and reduce is called", function() {
-    spyOn(window, 'reduce').andCallThrough();
+    spyOn(window, 'reduce').and.callThrough();
     expect(sum([1, 2, 3])).toEqual(6);
     expect(reduce).toHaveBeenCalled();
   });
@@ -108,6 +108,10 @@ describe("sums an array using reduce", function() {
 describe("every", function() {
   var isEven = function(num) {
     return num % 2 === 0;
+  };
+  
+  var getValue = function(i) { 
+    return i; 
   };
 
   it("should handle an empty set", function() {
