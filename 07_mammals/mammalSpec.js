@@ -40,7 +40,7 @@ describe("Cat class", function() {
 
   // Cat is a constructor function
   beforeEach(function() {
-    spyOn(Mammal, 'call').andCallThrough();
+    spyOn(Mammal, 'call').and.callThrough();
     cat = new Cat("Garfield", "yellow");
   });
 
