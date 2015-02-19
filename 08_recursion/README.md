@@ -14,7 +14,7 @@ In the Recursion test spec we will practice writing recursive functions.  The id
 
 ###Lesson Videos
 
-- Lesson: Lesson Video is Not Available. It will be updated on Wednesday (2/18)
+- Lesson: [Recursion Basics](http://www.youtube.com/watch?v=GS6nYPKE7Ho)
 
 <br>
 <hr>
