@@ -18,7 +18,3 @@ In the Recursion test spec we will practice writing recursive functions.  The id
 
 <br>
 <hr>
-
-###Additional Resources:
-
-- The Resource Section will be updated on Wednesday (2/18)
