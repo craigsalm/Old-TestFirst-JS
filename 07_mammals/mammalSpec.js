@@ -65,7 +65,8 @@ describe("Cat class", function() {
   // using the classical model, in the earlier videos we demonstrated how to chain prototypes with
   // Object.create() )
 
-  it("should use Object.create to inherits methods from Mammal", function() {
+  it("should use Object.create to inherit methods from Mammal", function() {
+    expect(typeof Cat.prototype.sayHello).toEqual('function');
     expect(Cat.prototype.offspring).toEqual(undefined);
   });
 
