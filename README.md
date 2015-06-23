@@ -19,7 +19,7 @@ To start, we need to fork the repository and install `testem`, a Node test-runne
 3. Use the link in the `git clone` then follow the rest of the commands.
 
 ```
-$ git clone https:github.com/your-github-username/test_first_javascript.git
+$ git clone https://github.com/FullstackAcademy/FullstackTestFirst.git
 $ cd test_first_javascript
 $ brew install node
 $ sudo npm install -g testem
