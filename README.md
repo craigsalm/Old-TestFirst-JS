@@ -20,7 +20,7 @@ To start, we need to fork the repository and install `testem`, a Node test-runne
 
 ```
 $ git clone https://github.com/FullstackAcademy/FullstackTestFirst.git
-$ cd test_first_javascript
+$ cd FullstackTestFirst
 $ brew install node
 $ sudo npm install -g testem
 ```
