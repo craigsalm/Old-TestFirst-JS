@@ -15,7 +15,7 @@ Let's warm up by learning to read tests and write code to match a test's expecta
 To start, we need to fork the repository and install `testem`, a Node test-runner that will run your test and code.
 
 1. **Fork** the repository to your account.
-2. Go to your own repositories on GitHub and **clone the test_first_javascript** repository link.
+2. Go to your own repositories on GitHub and **clone the FullstackTestFirst** repository link.
 3. Use the link in the `git clone` then follow the rest of the commands.
 
 ```
