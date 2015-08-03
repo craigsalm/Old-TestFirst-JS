@@ -9,8 +9,7 @@ To familiarize yourself with Regular expressions, complete following [tutorial](
 practice using Regular expressions with JavaScript read and practice the code examples in [Chapter 9 of Eloquent Javascript](http://eloquentjavascript.net/09_regexp.html).
 
 Using and learning regular expressions takes time.  ** We do not expect you to be a regular expression guru after completing the TestSpecs for this section.
-However, we do expect you to gain an understanding of how they work and to not be hesitant using them in the future where you feel they
-are necessary. **
+However, we do expect you to gain an understanding of how they work and to not be hesitant using them in the future where you feel they are necessary. **
 
 
 <hr>
@@ -19,6 +18,11 @@ are necessary. **
 ###Lesson Videos
 
 - There isn't a lesson video for this section, please read the overview and complete the [suggested tutorial](http://regexone.com/) for this section.
+- Codeschool: [Breaking The Ice with Regular Expressions](http://campus.codeschool.com/courses/breaking-the-ice-with-regular-expressions/contents)
+- RegEx Sandboxes:
+  - Sandboxes are great to test and learn Regular Expressions!
+  - [Regular Expressions 101](https://regex101.com/#javascript)
+  - [RegExr](http://www.regexr.com/)
 
 <br>
 <hr>
