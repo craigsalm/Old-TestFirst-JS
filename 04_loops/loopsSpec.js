@@ -135,7 +135,7 @@ describe("looping over objects", function() {
     });
 
     // This one is also tricky, here we want you to only `paramify` the properties 
-    // of the object and avoid any that are on the object's __proto__ object.
+    // of the object and avoid any that are on the object's 'internal prototype' (__proto__) object.
     // To do that, use the `hasOwnProperty` method of `sObject`
     it("skips properties of the object's prototype", function() {
 
