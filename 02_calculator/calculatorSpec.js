@@ -14,8 +14,6 @@ describe("Create a Calculator", function() {
     calculator = createCalculator();
   });
 
-  // When we call `value()`, it returns us 0 at the start.  We haven't run any math functions
-  // yet.
   it("initially has 0", function() {
     expect(calculator.value()).toEqual(0);
   });
