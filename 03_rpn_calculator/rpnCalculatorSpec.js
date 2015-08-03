@@ -72,7 +72,7 @@ describe("Calculator using reverse polish notation", function() {
 
   // Here we're using the `instanceof` keyword in JS so see if `rpnCalculator` is 
   // an "instance" of capital RPNCalculator.  `instanceof` tests to see if 
-  // somewhere in the `__proto__` chain of `rpnCalculator` matches `RPNCalculator.prototype`
+  // an 'internal prototype' (`__proto__`) in the chain of `rpnCalculator` matches the `RPNCalculator.prototype` object.
   it("the rpnCalculator object should be an instance of the RPNCalculator Constructor", function() {
     expect(rpnCalculator instanceof RPNCalculator).toEqual(true);
   });
