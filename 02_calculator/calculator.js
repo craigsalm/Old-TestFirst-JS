@@ -14,6 +14,6 @@ var createCalculator = function() {
 	};
 	return calculator;
 }
-var calculator = createCalculator;
+
 /**None of these tests are working, must be something wrong with
 initial set-up of the calculator object that I can't figure out.**/
