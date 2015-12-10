@@ -43,3 +43,7 @@ if (this.stack < 2) {
 		this.total += this.stack.pop() / this.stack.pop();
 	}
 }
+
+/**None of these tests are working, must be something wrong with
+initial set-up of the rpn calculator object that I can't figure out. 
+Had the same issue in calculator**/
