@@ -1,17 +1,17 @@
 calculator.js
 var createCalculator = function() {
-	var calculator = {};
+    var calculator = {};
 	calculator.total = 0;
 
 	calculator.value = function() {
 		return this.total;
-	};
+	}
 	calculator.add = function(number) {
-		this.total = this.total + number:
-	};
+		this.total = this.total + number;
+	}
 	calculator.subtract = function(number) {
-		this.total = this.total - number:
-	};
+		this.total = this.total - number;
+	}
 	return calculator;
 }
 
