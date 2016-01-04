@@ -83,7 +83,7 @@ describe("once", function() {
 // the same value and can both read and modify it.
 describe("Shared contexts", function() {
   it("should return an object with two functions", function() {
-    var sharedObj = createObjectWithTwoClosures();
+    var sharedObj = new createObjectWithTwoClosures();
     expect(typeof sharedObj.oneIncrementer).toBe("function");
     expect(typeof sharedObj.tensIncrementer).toBe("function");
     expect(typeof sharedObj.getValue).toBe("function");

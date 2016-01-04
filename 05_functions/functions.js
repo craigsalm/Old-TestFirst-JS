@@ -25,8 +25,16 @@ var makeAdder = function(A){
 	return newFunc
 }
 
-///Test spec 5
-///[not sure what to do for Test Spec 5]
+var once = function(func){
+	var count = 0
+	var newFunc = function(){
+		while (count < 1){
+		    func();
+		    count+=1;
+		}
+	}
+	return newFunc
+}
 
 var value = 0;
 
