@@ -28,9 +28,14 @@ var makeAdder = function(A){
 ///Test spec 5
 ///[not sure what to do for Test Spec 5]
 
+// the once function has a lot to do with the idea of closure.
+// How do you create a closure?
+
 var value = 0;
 
 var createObjectWithTwoClosures = function(){
+	// what does "this" reference? Is the new keyword being used in the test specs? 
+	// The value is in the global scope, it should be used as a closure.
 	this.oneIncrementer = function(){
 		value += 1;
 	}
